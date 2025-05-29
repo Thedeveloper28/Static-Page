@@ -1,0 +1,1010 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+}
+
+.searchbar {
+    border: none;
+    background-color: rgba(204, 236, 243, 0.955);
+    color: black;
+    padding-left: 30px;
+    height: 32px;
+    width: 290px;
+    font-size: 15px;
+}
+
+.righticons {
+    color: rgb(113, 109, 109);
+    list-style: none;
+    gap: 17px;
+}
+
+.icon1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+    background-color: #fff;
+}
+
+i {
+    margin-right: 30px;
+}
+
+.M {
+    margin-top: 40px;
+    margin-right: 40px;
+    text-indent: -2.4cm;
+}
+
+.Me {
+    height: 30px;
+    width: 29px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.header {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.lefticons,
+.righticons,
+i,
+a,
+.para,
+span,
+ul,
+li {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.lefticons {
+    margin-left: 10%;
+    gap: 10px;
+}
+
+i {
+    font-size: 20px;
+}
+
+.icon2 {
+    margin-right: 10px;
+}
+
+.icon3 {
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.icon4 {
+    margin-right: 12px;
+    margin-left: -10px;
+}
+
+.fa-home {
+    margin-left: 30px;
+}
+
+.fa-users {
+    margin-left: 20px;
+}
+
+.fa-briefcase {
+    margin-left: 5px;
+}
+
+.fa-comment {
+    margin-left: 20px;
+}
+
+.fa-bell {
+    margin-left: 20px;
+}
+
+.dash {
+    font-size: xx-large;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.first1 {
+    border: solid gainsboro;
+    border-width: 1px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 250px;
+    height: 345px;
+    width: 16%;
+    border-radius: 10px;
+}
+
+.color {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 20%;
+    width: auto;
+    background: linear-gradient(to right, #ff0000, #ffff00);
+}
+
+.color>.pic {
+    border: 2px solid white;
+    border-radius: 60%;
+    height: 70px;
+    width: 70px;
+    margin-left: 38%;
+    margin-right: 50%;
+    margin-top: 30px;
+}
+
+.color>h6 {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding-left: 91px;
+    padding-top: 2px;
+}
+
+h6+p {
+    background-color: #fff;
+    font-family: 'Segoe UI';
+    font-weight: lighter;
+    padding-left: 5vh;
+    padding-top: 5px;
+    font-size: small;
+}
+
+.color>.top {
+    margin-top: -5px;
+    color: gainsboro;
+}
+
+.connect>.p2,
+.p1,
+span {
+    background-color: #fff;
+}
+
+.connect>.p2,
+.p1 {
+    padding-left: 10px;
+}
+
+.connect>span {
+    padding-left: 14vw;
+    margin-top: -35px;
+    color: rgb(84, 84, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.connect>.p1 {
+    padding-top: 5px;
+    font-weight: lighter;
+    font-family: "Segoe UI";
+    font-size: 13px;
+}
+
+.connect>.p2 {
+    font-family: system-ui;
+    font-weight: bolder;
+    font-size: x-small;
+    word-spacing: -1px;
+    padding-top: 6px;
+}
+
+.p3 {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-left: 9px;
+    font-family: "Segoe UI";
+    font-size: small;
+    font-weight: 400;
+}
+
+#thirty {
+    padding-top: 15px;
+}
+
+.line1 {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.caption>.cap1,
+.cap2 {
+    background-color: #fff;
+}
+
+.caption>.cap1 {
+    font-family: "Segoe UI";
+    font-weight: lighter;
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cap1+.cap2 {
+    font-family: 'system-ui';
+    font-size: 11px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.line2 {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.saved {
+    background-color: #fff;
+    padding-left: 15px;
+    padding-top: 9px;
+}
+
+.items {
+    padding-left: 45px;
+    margin-top: -24px;
+    font-family: system-ui;
+    font-size: medium;
+}
+
+.second2 {
+    margin-top: 280px;
+    border: solid gainsboro;
+    border-width: 1px;
+    background-color: white;
+    margin-top: 290px;
+    height: 350px;
+    width: 101%;
+    border-radius: 10px;
+}
+
+.second2>span {
+    background-color: #fff;
+    margin-left: 12px;
+    margin-right: 10px;
+    margin-top: 13px;
+    font-family: system-ui;
+    font-size: 80%;
+    font-weight: 600;
+}
+
+.side>ol>li {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: system-ui;
+    color: grey;
+    font-size: small;
+}
+
+.iconic>p {
+    background-color: #fff;
+    color: blue;
+    font-family: system-ui;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: small;
+}
+
+#people {
+    background-color: #fff;
+    color: dimgray;
+}
+
+#people>i {
+    font-size: small;
+    display: flex;
+    padding-top: 14px;
+    flex-direction: row;
+    margin-left: 8px;
+}
+
+#people>.tense1 {
+    color: grey;
+    font-family: system-ui;
+    font-size: small;
+    padding-left: 40px;
+    margin-top: -45px;
+}
+
+.tense2 {
+    color: grey;
+    font-family: system-ui;
+    font-size: small;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.hash>p {
+    background-color: #fff;
+    color: blue;
+    font-family: system-ui;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: small;
+}
+
+.hash>ol>li {
+    color: grey;
+    font-family: system-ui;
+    font-size: small;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.center1 {
+    background-color: #fff;
+    margin-left: 35vh;
+    margin-top: -97vh;
+    height: 130px;
+    width: 250%;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.center1>img {
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.center1>span>input {
+    width: 33vw;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 42px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: -60px;
+    background-color: white;
+    font-family: system-ui;
+    padding-left: 15px;
+    font-weight: 400;
+}
+
+.media {
+    background-color: #fff;
+}
+
+.media>.Photo>img,
+.video>img {
+    background-color: #fff;
+    height: 25px;
+    width: 25px;
+}
+
+.media>.Photo,
+.video,
+.Event,
+.article {
+    background-color: #fff;
+}
+
+.media>.Photo {
+    display: flex;
+    gap: 10px;
+    padding-left: 70px;
+    padding-top: 15px;
+    font-family: system-ui;
+    font-size: small;
+}
+
+.media>.video {
+    display: flex;
+    gap: 10px;
+    padding-left: 200px;
+    margin-top: -25px;
+    font-family: system-ui;
+    font-size: small;
+}
+
+.media>.Event {
+    display: flex;
+    gap: 10px;
+    padding-left: 22vw;
+    margin-top: -22px;
+    font-family: system-ui;
+    font-size: small;
+}
+
+.media>.Event>img {
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+}
+
+.media>.article {
+    display: flex;
+    gap: 10px;
+    padding-left: 30vw;
+    margin-top: -21px;
+    font-family: system-ui;
+    font-size: small;
+}
+
+.media>.article>img {
+    background-color: #fff;
+    height: 18px;
+    width: 18px;
+}
+
+.center2 {
+    background-color: #fff;
+    height: 80vh;
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid gainsboro;
+}
+
+.center2>.myntra {
+    background-color: #fff;
+    height: 55px;
+    width: 65px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.myntra+h6 {
+    background-color: #fff;
+    font-family: system-ui;
+    font-size: small;
+    padding-left: 18px;
+    margin-top: -8px;
+}
+
+.center2>.fash {
+    background-color: #fff;
+    font-family: system-ui;
+    font-size: small;
+    padding-left: 10vh;
+    margin-top: -7vh;
+    font-size: medium;
+}
+
+.center2>.follow {
+    white-space: pre-line;
+    padding-left: 81px;
+}
+
+.center2>span {
+    font-weight: bolder;
+    font-size: xx-large;
+    float: right;
+    padding-right: 20px;
+    margin-top: -70px;
+}
+
+.center2>span+img {
+    height: 70%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.center2>.like,
+.love,
+.celebrate {
+    background-color: #fff;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.center2>.comments {
+    background-color: #fff;
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: small;
+    padding-left: 6vw;
+    margin-top: -20px;
+}
+
+.buttons>a>.like,
+a>.comments,
+a>.share {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+}
+
+.buttons>a>.send {
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+}
+
+.center2>.buttons {
+    display: flex;
+    gap: 25px;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.buttons>a {
+    color: gray;
+    text-decoration: none;
+    font-family: system-ui;
+}
+
+.center3 {
+    background-color: #fff;
+    height: 80vh;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid gainsboro;
+}
+
+.center3>.yash {
+    background-color: #fff;
+    height: 55px;
+    width: 65px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.center3>.fash {
+    background-color: #fff;
+    font-family: system-ui;
+    font-size: small;
+    padding-left: 10vh;
+    margin-top: -7vh;
+    font-size: medium;
+}
+
+.center3>.follow {
+    white-space: pre-line;
+    margin-top: -6px;
+    padding-left: 78px;
+}
+
+.center3>span {
+    font-weight: bolder;
+    font-size: xx-large;
+    float: right;
+    padding-right: 20px;
+    margin-top: -60px;
+}
+
+.center3>span+p {
+    background-color: #fff;
+    white-space: pre-line;
+    font-family: system-ui;
+    font-size: small;
+    padding-top: 19px;
+    padding-left: 18px;
+    padding-right: 5px;
+}
+
+.center3>span+p+video {
+    background-color: #fff;
+    height: 60%;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.center3>.like,
+.love,
+.celebrate {
+    background-color: #fff;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+
+.center3>.comments {
+    background-color: #fff;
+    font-family: system-ui;
+    font-weight: lighter;
+    font-size: small;
+    padding-left: 6vw;
+    margin-top: -20px;
+}
+
+.buttons2>a>.like,
+a>.comments,
+a>.share {
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+}
+
+.buttons2>a>.send {
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+}
+
+.center3>.buttons2 {
+    display: flex;
+    gap: 25px;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.buttons2>a {
+    color: gray;
+    text-decoration: none;
+    font-family: system-ui;
+}
+
+.left1 {
+    margin-left: 620px;
+    margin-top: -179vh;
+    height: 18vw;
+    width: 18vw;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.left1>.news {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.left1>.news>h3 {
+    background-color: #fff;
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.left1>.news>img {
+    height: 12px;
+    width: 12px;
+}
+
+.point1>a {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.point1>h6 {
+    font-family: system-ui;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -28px;
+    background-color: #fff;
+}
+
+.point2>a {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.point2>h6 {
+    font-family: system-ui;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -28px;
+    background-color: #fff;
+}
+
+.point3>a {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 2px;
+}
+
+.point3>h6 {
+    font-family: system-ui;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -28px;
+    background-color: #fff;
+}
+
+.point4>img {
+    height: 12px;
+    width: 12px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.point4>h6 {
+    font-family: system-ui;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -18px;
+    background-color: #fff;
+}
+
+.left2 {
+    margin-left: 620px;
+    margin-top: 2vh;
+    height: 12vw;
+    width: 18vw;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.left2>.news {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.left2>.news>h3 {
+    background-color: #fff;
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.left2>.news>img {
+    height: 12px;
+    width: 12px;
+}
+
+.point5>a {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.point5>h6 {
+    font-family: system-ui;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -28px;
+    background-color: #fff;
+}
+
+.point6>a {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+.point6>h6 {
+    font-family: system-ui;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -28px;
+    background-color: #fff;
+}
+
+.left3 {
+    margin-left: 620px;
+    margin-top: 2vh;
+    height: 23vw;
+    width: 18vw;
+    background-color: #fff;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+
+.brand1 {
+    background-color: #fff;
+}
+
+.left3>.news {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.left3>.news>h3 {
+    background-color: #fff;
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 90%;
+}
+
+.left3>.news>img {
+    height: 12px;
+    width: 12px;
+}
+
+.brand1>.unilever {
+    background-color: #fff;
+    height: 35px;
+    width: 40px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.brand1>.unilever+h6 {
+    background-color: #fff;
+    font-family: system-ui;
+    font-size: medium;
+    padding-left: 53px;
+    margin-top: -35px;
+}
+
+.brand1>.company {
+    font-size: small;
+    padding-left: 53px;
+    margin-top: -5px;
+    color: gray;
+}
+
+.brand1>.company+span {
+    padding-left: 57px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 60px;
+    margin-left: 50px;
+    border: 1px solid;
+    border-radius: 15px;
+    font-family: system-ui;
+    font-size: x-small;
+    font-weight: 500;
+}
+
+.brand1>.company+span+hr {
+    margin-top: 10px;
+}
+
+.brand2 {
+    background-color: #fff;
+}
+
+.brand2>.linkedin {
+    background-color: #fff;
+    height: 45px;
+    width: 40px;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.brand2>.linkedin+h6 {
+    background-color: #fff;
+    font-family: system-ui;
+    font-size: medium;
+    padding-left: 53px;
+    margin-top: -40px;
+}
+
+.brand2>.company {
+    font-size: small;
+    padding-left: 53px;
+    margin-top: -5px;
+    color: gray;
+}
+
+.brand2>.company+span {
+    padding-left: 33px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 4px;
+    margin-right: 115px;
+    margin-left: 55px;
+    border: 1px solid;
+    border-radius: 15px;
+    font-family: system-ui;
+    font-size: x-small;
+    font-weight: 500;
+}
+
+.brand2>.company+span+hr {
+    margin-top: 10px;
+}
+
+.brand3 {
+    background-color: #fff;
+}
+
+.brand3>.myntra {
+    background-color: #fff;
+    height: 45px;
+    width: 40px;
+    padding-left: 5px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.brand3>h3{
+    background-color: #fff;
+    font-size: x-small;
+    font-family: system-ui;
+    margin-top: -7px;
+    margin-left: 4px;
+}
+.brand3>h3+h6{
+    background-color: #fff;
+    font-family: system-ui;
+    margin-left: 55px;
+    margin-top: -45px;
+    font-size: medium;
+}
+
+.brand3>.company {
+    font-size: small;
+    padding-left: 53px;
+    margin-top: -5px;
+    color: gray;
+    background-color: #fff;
+}
+
+.brand3>.company+span {
+    padding-left: 33px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: -14px;
+    margin-right: 115px;
+    margin-left: 55px;
+    border: 1px solid;
+    border-radius: 15px;
+    font-family: system-ui;
+    font-size: x-small;
+    font-weight: 500;
+}
+.brand3>a{
+    padding-top: 25px;
+}
+
+.brand3>.company+span+hr {
+    margin-top: 10px;
+}
